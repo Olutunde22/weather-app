@@ -3,6 +3,9 @@ import { UNITS } from "@/types";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+/**
+ * A function to get error message from api call
+ */
 export function getErrorMessage(
 	error: unknown,
 	{ message }: { message: string }
@@ -45,6 +48,9 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
+/**
+ * Generates the URL for the weather icon based on the provided icon code from open weather.
+ */
 export function getWeatherIconUrl(icon?: string): string {
 	return `https://openweathermap.org/img/wn/${icon ?? '01d'}@2x.png`;
 }

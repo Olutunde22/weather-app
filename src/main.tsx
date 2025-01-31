@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./weather-app";
+import App from "./app";
 import { ThemeProvider } from "./providers/theme-provider";
 import { WeatherProvider } from "./providers/weather-provider";
 import { SidebarProvider } from "./providers/sidebar-provider";

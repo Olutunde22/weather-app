@@ -14,6 +14,7 @@ function SideNav() {
 	const { isOpen } = useSideBar();
 
 	const handleAddFavorite = () => {
+		// Check if the current weather data is not in the favorites list before adding it
 		if (
 			!state.favorites.some((favorite) => favorite.id === state.weatherData.id)
 		) {
@@ -34,6 +35,7 @@ function SideNav() {
 				isOpen && "block fixed z-20 bg-white dark:bg-[#121717]"
 			)}
 		>
+			
 			<div className="items-center lg:hidden w-full justify-between my-3 flex gap-x-8">
 				<ThemeToggle />
 				<div className="size-10 flex items-center justify-center text-[#121717] dark:text-white bg-[#F0F2F5] dark:bg-[#293338] rounded-xl">
@@ -41,6 +43,8 @@ function SideNav() {
 				</div>
 				<img src={avatarImage} alt="Avatar image" className="size-10" />
 			</div>
+
+
 			<div className="w-full p-5 border border-[#DBE3E5] dark:border-[#3D4D54] rounded-xl">
 				<p className="font-bold leading-5 mb-1">Add to favorites</p>
 				<span className="text-[#637D87] leading-6">

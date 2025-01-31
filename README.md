@@ -68,6 +68,10 @@ yarn build
 
 This will create a `dist` directory with the production build of your application.
 
+### Deployed Application
+
+You can view the deployed application at [https://weather-app-bb40.onrender.com](https://weather-app-bb40.onrender.com).
+
 ## Technologies Used
 
 - **Vite**: A fast build tool and development server.

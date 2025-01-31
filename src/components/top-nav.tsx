@@ -40,6 +40,7 @@ function TopNav() {
 				<img src={avatarImage} alt="Avatar image" className="size-10" />
 			</div>
 
+			{/* Menu Button For Mobile View */}
 			<CgMenuRight
 				onClick={() => toggleSidebar()}
 				className="lg:hidden cursor-pointer text-[#121717] dark:text-white"

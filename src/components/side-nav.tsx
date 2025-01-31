@@ -34,7 +34,7 @@ function SideNav() {
 				isOpen && "block fixed z-20 bg-white dark:bg-[#121717]"
 			)}
 		>
-			<div className="items-center w-full justify-between my-3 flex gap-x-8">
+			<div className="items-center lg:hidden w-full justify-between my-3 flex gap-x-8">
 				<ThemeToggle />
 				<div className="size-10 flex items-center justify-center text-[#121717] dark:text-white bg-[#F0F2F5] dark:bg-[#293338] rounded-xl">
 					<CompassIcon />

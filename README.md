@@ -10,7 +10,7 @@ To get started with this project, follow the instructions below.
 
 Make sure you have the following installed on your machine:
 - Node.js
-- npm (Node Package Manager)
+- npm (Node Package Manager) or Yarn
 
 ### Installation
 
@@ -22,9 +22,13 @@ Make sure you have the following installed on your machine:
   ```sh
   cd weather-app
   ```
-3. Install the dependencies:
+3. Install the dependencies using npm:
   ```sh
   npm install
+  ```
+  or using Yarn:
+  ```sh
+  yarn install
   ```
 
 ### Environment Variables
@@ -44,6 +48,10 @@ To start the development server, run:
 ```sh
 npm run dev
 ```
+or using Yarn:
+```sh
+yarn dev
+```
 
 This will start the application and you can view it in your browser at `http://localhost:5173`.
 
@@ -52,6 +60,10 @@ This will start the application and you can view it in your browser at `http://l
 To build the application for production, run:
 ```sh
 npm run build
+```
+or using Yarn:
+```sh
+yarn build
 ```
 
 This will create a `dist` directory with the production build of your application.
@@ -62,12 +74,9 @@ This will create a `dist` directory with the production build of your applicatio
 - **Tailwind CSS**: A utility-first CSS framework.
 - **OpenWeather API**: An API to get weather data.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Acknowledgements
 
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [OpenWeather API](https://openweathermap.org/api)
+
